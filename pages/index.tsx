@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from "next/head"
 
 export default function Home() {
   return (
@@ -10,13 +10,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>
-          Bienvenue à Gazouillis
-        </h1>
+        <h1>Bienvenue à Gazouillis</h1>
 
-        <p>
-          Twitter made in France
-        </p>
+        <p>Twitter made in France</p>
       </main>
     </>
   )
