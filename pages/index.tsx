@@ -1,4 +1,5 @@
 import Head from "next/head"
+import { Container, Typography } from "@mui/material"
 
 export default function Home() {
   return (
@@ -9,11 +10,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1>Bienvenue à Gazouillis</h1>
+      <Container maxWidth="lg">
+        <Typography variant="h1" gutterBottom>
+          Bienvenue à Gazouillis
+        </Typography>
 
-        <p>Twitter made in France</p>
-      </main>
+        <Typography>Twitter made in France</Typography>
+      </Container>
     </>
   )
 }
