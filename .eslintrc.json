@@ -7,6 +7,7 @@
     "plugin:import/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:@next/next/recommended",
+    "plugin:storybook/recommended",
     "prettier" // should be last
   ]
 }
