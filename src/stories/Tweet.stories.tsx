@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react"
 
-import { Tweet } from "../components/Tweet"
+import { Tweet } from "../components/Tweet/Tweet"
 
 export default {
   title: "Components/Tweet",
